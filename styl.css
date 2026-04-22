@@ -37,6 +37,22 @@
     border-radius: 1em;
     margin: 0.5em;
 }
-.nav__menu:nth-child() {
-    
+
+main{
+    background-image: url("./img/Rectangle\ 9.png");
+    background-repeat: repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+   padding-bottom: 2em;
+
+}
+.main_icon{
+    margin: 1.5em;
+}
+.main_img{
+    margin: 1em;
+}
+.MV3{
+    width: 100%;
 }
