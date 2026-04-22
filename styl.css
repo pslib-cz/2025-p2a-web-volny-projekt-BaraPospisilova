@@ -1,0 +1,42 @@
+@import url("./font-chillax/css/chillax.css");
+
+:root {
+    --black-color: #171717;
+    font-family: "Chillax-Medium";
+}
+
+.navbar{
+    background-color: var(--black-color);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.uvodniobrazek {
+    height: 9em;
+    width: 100%;
+}
+
+.obrazek{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+.uvod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    
+}
+.nav__menu > div {
+    content: "";
+    width: 45px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    margin: 0.5em;
+}
+.nav__menu:nth-child() {
+    
+}
