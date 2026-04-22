@@ -1,6 +1,6 @@
 # Volný projekt
 
-> **Jméno a příjmení:** `Doplňte`
+> **Jméno a příjmení:** `Bára Pospíšilová`
 
 > **Název projektu:** `Doplňte`
 
@@ -10,7 +10,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Doplňte popis projektu.`
+`Jedná se o mé portfolio.`
 
 ---
 
@@ -26,7 +26,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Doplňte cílovou skupinu.`
+``
 
 
 ## Odkazy a výstupy
@@ -37,7 +37,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`Doplň odkaz`](#) |
 | Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
-| Grafický návrh webu (Figma) | [`Doplň odkaz`](#) |
+| Grafický návrh webu (Figma) | [`(https://www.figma.com/design/SMsR8tViQ7Qf2iwWCVQiiH/Untitled?node-id=0-1&p=f&t=EPhWbkRjvOU7wbIY-0)` |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
