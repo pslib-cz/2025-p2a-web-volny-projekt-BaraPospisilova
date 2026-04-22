@@ -37,7 +37,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`Doplň odkaz`](#) |
 | Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
-| Grafický návrh webu (Figma) | [`(https://www.figma.com/design/SMsR8tViQ7Qf2iwWCVQiiH/Untitled?node-id=0-1&p=f&t=EPhWbkRjvOU7wbIY-0)` |
+| Grafický návrh webu (Figma) | [`https://www.figma.com/design/SMsR8tViQ7Qf2iwWCVQiiH/Untitled?node-id=0-1&p=f&t=EPhWbkRjvOU7wbIY-0`    |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
