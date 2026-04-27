@@ -34,7 +34,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`Doplň odkaz`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-BaraPospisilova/) |
+| GitHub Pages (live) | [`[Doplň odkaz](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-BaraPospisilova/)`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-BaraPospisilova/) |
 | Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
 | Grafický návrh webu (Figma) | [`https://www.figma.com/design/SMsR8tViQ7Qf2iwWCVQiiH/Untitled?node-id=0-1&p=f&t=EPhWbkRjvOU7wbIY-0`    |
 | Fotografie / média | [`Doplň odkaz`](#) |
