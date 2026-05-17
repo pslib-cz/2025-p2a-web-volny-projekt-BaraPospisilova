@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dokument</title>
     <link rel="stylesheet" href="./styl.css">
     <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-<link rel="shortcut icon" href="./favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-<meta name="apple-mobile-web-app-title" content="BP" />
-<link rel="manifest" href="./site.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="BP" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css">
 </head>
-<body> 
+
+<body>
     <nav class="navbar">
-       <a href="/"><img src="./img/Logo.svg" alt="Logo firmy"></a>
-       <div class="navbar_vpravo">
-        <div class="nav__menu">
-            <div></div>
-            <div></div>
-            <div></div>
+        <a href="/"><img src="./img/Logo.svg" alt="Logo firmy"></a>
+        <div class="navbar_vpravo">
+            <div class="nav__menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
-       </div>
     </nav>
     <div class="uvod">
         <img class="uvod__vrstevnice" src="./mojeikony/Union.png" alt="vrstevnice">
@@ -32,18 +35,18 @@
     </div>
     <main>
         <img class="main_icon" src="./mojeikony/Rectangle 10.png" alt=">">
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
-       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
-       <img class="main_img" src="./img/cat-placeholder.png" alt="kočka">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <img class="main_img" src="./img/cat-placeholder.png" alt="kočka">
     </main>
     <img class="MV3" src="./img/IMG_20260410_115646.jpg" alt="clovek v mikine maxe verstappena">
 
     <div class="cards">
         <h2>Moje schopnosti</h2>
-        <div class="cards_card1">
+        <div class="cards_card card1">
             <div class="card__header">
-            <h2>Svlete</h2>
-            <img class="card__svelte" src="./mojeikony/svelte-icon.svg" alt="svelte ikona">
+                <h2>Svelte</h2>
+                <img class="card__svelte" src="./mojeikony/svelte-icon.svg" alt="svelte ikona">
             </div>
             <p class="card__text">moderní, open-source JavaScriptový framework -> lepší react</p>
             <div class="progressBar">
@@ -51,18 +54,141 @@
                 <div class="bar"></div>
             </div>
         </div>
-                <div class="cards_card2">
+        <div class="cards_card card2">
             <div class="card__header">
                 <h2>C#</h2>
-            <img class="card__svelte" src="./mojeikony/csharp2-svgrepo-com.svg" alt="svelte ikona">
+                <img class="card__svelte" src="./mojeikony/csharp2-svgrepo-com.svg" alt="svelte ikona">
             </div>
             <p class="card__text">velmi populární, moderní, programovací jazyk od společnosti Microsoft</p>
-                        <div class="progressBar">
+            <div class="progressBar">
                 <div class="progress"></div>
                 <div class="bar2"></div>
             </div>
         </div>
+        <div class="cards_card card3">
+            <div class="card__header">
+                <h2>CSS</h2>
+                <img class="card__svelte" src="./mojeikony/w3_css-icon.svg" alt="svelte ikona">
+            </div>
+            <p class="card__text">formátovací jazyk, k úpravě vzhledu webových stránek</p>
+            <div class="progressBar">
+                <div class="progress"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div class="cards_card card4">
+            <div class="card__header">
+                <h2>HTML</h2>
+                <img class="card__svelte" src="./mojeikony/html-5-logo-svgrepo-com.svg" alt="svelte ikona">
+            </div>
+            <p class="card__text">základní stavební kámen každé webové stránky</p>
+            <div class="progressBar">
+                <div class="progress"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div class="cards_card card5">
+            <div class="card__header">
+                <h2>TypeScript</h2>
+                <img class="card__svelte" src="./mojeikony/typescript.svg" alt="svelte ikona">
+            </div>
+            <p class="card__text">moderní rozšířený programovací jazyk vyvinutý společností Microsoft</p>
+            <div class="progressBar">
+                <div class="progress"></div>
+                <div class="bar5"></div>
+            </div>
+        </div>
     </div>
-    
+
+    <div class="dalsi_div">
+    <div class="nadpis">
+        <img src="./mojeikony/Exclude.svg" alt="detail">
+        <h2>Co nabízím?</h2>
+    </div>
+    <div class="co_nabizim">
+        <p>Udělám na míru web,
+            logo, plakát i vizuální
+            identitu</p>
+        <img src="./img/Drogon.png" alt="šedý 3D model hlavy draka">
+        <p class="text_o_3D">Baví me tvořit 3D modely nejčastěji filmových
+            postav v blenderu, ale dělám i techničtější
+            věci jako např součástky do 3D tiskáren</p>
+    </div>
+</div>
+<img class="drak_img" src="./img/Drak.jpg" alt="Letící drak s modro-černou barvou">
+
+<div class="znova_div">
+<div class="half-img">
+<img class="Les_img" src="./img/Les.jpg" alt="Les v mlze">
+</div>
+<p class="random_text">Lorem ipsum dolor, sit amet consectetur adipisicing 
+sit amet sicing elit.
+Lorem ipsum dolor, sit amet consectetur </p>
+</div>
+
+<div id="gallery">
+    <a href="./img/Les.jpg">
+        <img src="./img/Les.jpg" width="200">
+    </a>
+
+    <a href="./img/cat-placeholder.png">
+        <img src="./img/cat-placeholder.png" width="200">
+    </a>
+        <a href="./img/Les.jpg">
+        <img src="./img/Les.jpg" width="200">
+    </a>
+
+    <a href="./img/cat-placeholder.png">
+        <img src="./img/cat-placeholder.png" width="200">
+    </a>
+        <a href="./img/Les.jpg">
+        <img src="./img/Les.jpg" width="200">
+    </a>
+
+    <a href="./img/cat-placeholder.png">
+        <img src="./img/cat-placeholder.png" width="200">
+    </a>
+        <a href="./img/Les.jpg">
+        <img src="./img/Les.jpg" width="200">
+    </a>
+
+    <a href="./img/cat-placeholder.png">
+        <img src="./img/cat-placeholder.png" width="200">
+    </a>
+</div>
+
+<div class="spoluprace">
+<p>Líbí se ti moje práce?</p>
+<p>Potřebuješ web, designéra, fotografa, nebo 3D modely?</p>
+<a class="button" href="">Pojďme spolupracovat</a>
+</div>
+
+<footer>
+    <div>
+    <h3>Kontaktní informace</h3>
+    <p>mail:</p>
+    <p>telefon:</p>
+</div>
+<div>
+    <h3>Nynější projekty</h3>
+    <p>Projekt 1</p>
+    <p>Projekt 2</p>
+    </div>
+</footer>
+<div class="ThisIsTheEnd">
+    <img src="./img/Logo.svg" alt="logo">
+    <p>2026 - Liberec</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.min.js"></script>
+
+<script>
+lightGallery(document.getElementById('gallery'), {
+    plugins: [lgThumbnail],
+    thumbnail: true
+});
+</script>
+
 </body>
+
 </html>
