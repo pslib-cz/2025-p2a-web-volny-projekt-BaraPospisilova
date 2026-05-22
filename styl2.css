@@ -1,0 +1,30 @@
+@import url("./font-chillax/css/chillax.css");
+
+:root {
+    --black-color: #0e0e0e;
+    --nice-blue:  rgb(37, 145, 164);
+    --darker-blue: rgb(0, 127, 127);
+    --dark-grey: #1f1f1f;
+    font-family: "Chillax-Medium";
+}
+body{
+    background-color: var(--dark-grey);
+}
+.navbar {
+    background-color: var(--black-color);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav__menu>div {
+    content: "";
+    width: 45px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    margin: 0.5em;
+}
+.mapa{
+    width: 100%;
+}

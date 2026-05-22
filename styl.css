@@ -216,7 +216,7 @@ main>p {
 
 .nadpis {
     display: flex;
-    gap: 2em;
+    gap: 1.2em;
 }
 .dalsi_div{
     background-image: url(./img/Rectangle\ 9.png);
@@ -246,7 +246,7 @@ main>p {
     color: rgb(245, 244, 244);
     position: absolute;
     top: 13em;
-    left: 10em;
+    left: 9em;
     width: 11em;
 }
 .spoluprace{
@@ -276,10 +276,16 @@ main>p {
         display: flex;
         gap: 2em;
         color: rgb(230, 230, 230);
-        padding: 0.4em;
+        padding: 1.5em;
     }
     .ThisIsTheEnd{
         background-color: #060606;
         display: flex;
+        padding: 1.5em;
     }
     .ThisIsTheEnd > p{color: #f1f1f1;}
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 0px;
+    }
