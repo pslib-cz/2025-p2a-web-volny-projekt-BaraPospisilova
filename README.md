@@ -1,7 +1,7 @@
 
 > **Jméno a příjmení:** `Bára Pospíšilová`
 
-> **Název projektu:** `Doplňte`
+> **Název projektu:** `JBC MTB`
 
 ---
 
@@ -9,7 +9,7 @@
 
 _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký problém řeší?_
 
-`Jedná se o mé portfolio.`
+`Jedná se o firmu pro servis a prodej kol.`
 
 ---
 
@@ -17,7 +17,7 @@ _Krátce popište svůj projekt – čemu se věnuje, co nabízí a jaký probl�
 
 _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se můžete inspirovat?_
 
-`Pavel Stianko - Bitworks -> mají moc hezké weby a unikátní nápady. Líbí se mi, že používají SvelteKit a Tailwind, a vše mají přehledné a zajímavé.`
+` `
 
 ---
 
@@ -25,7 +25,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Někdo si zakládá firmu, pořádá akci, a potřebuje design webu, loga atd.`
+`-Nadšenec do mountain bike -Obyvatel Libereckého kraje, jenž pracuje od rána do večera, a chce dát svému životu to, co mu celou tu dobu chybělo, ale nevěděl o tom`
 
 
 ## Odkazy a výstupy
@@ -36,7 +36,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`[Doplň odkaz](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-BaraPospisilova/)`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-BaraPospisilova/) |
 | Grafický manuál (Figma / Canva) | [`Doplň odkaz`](#) |
-| Grafický návrh webu (Figma) | [`https://www.figma.com/design/cSfMNEySJQBE320sD4XWYi/Posp%C3%AD%C5%A1ilov%C3%A1B%C3%A1ra?node-id=0-1&p=f&t=QdWOATSZDKKbPDkM-0`]    |
+| Grafický návrh webu (Figma) | [`https://www.figma.com/design/cSfMNEySJQBE320sD4XWYi/Posp%C3%AD%C5%A1ilov%C3%A1B%C3%A1ra?node-id=0-1&p=f&t=3xCC2cIRDx08UVu0-0`]    |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
@@ -45,4 +45,4 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 _Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
 
-`Volný prostor pro poznámky.`
+`Původně mělo jít o moje osobní portfolio, ale nápad to byl otřesný.`

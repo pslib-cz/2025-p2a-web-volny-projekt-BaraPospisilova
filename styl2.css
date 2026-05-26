@@ -5,6 +5,7 @@
     --nice-blue:  rgb(37, 145, 164);
     --darker-blue: rgb(0, 127, 127);
     --dark-grey: #1f1f1f;
+    --cervena: #AF0000;
     font-family: "Chillax-Medium";
 }
 body{
@@ -27,4 +28,34 @@ body{
 }
 .mapa{
     width: 100%;
+}
+form{
+    margin: 1.5em;
+}
+form > input{
+    color: var(--cervena);
+    background-color: #1f1f1f;
+    border-radius: 0.7em;
+    padding: 1em;
+    width: 14em;
+    margin-bottom: 1.5em;
+    border-color: #AF0000;
+    font-size: large;
+}
+.tlacitko{
+    background-color:var(--cervena);
+    padding: 1em;
+    color: white;
+    font-size: larger;
+    width: 7em;
+    text-align: center;
+    border-radius: 0.7em;
+}
+.btn-div{
+    margin: 1em;
+    display: flex;
+    justify-content: right;
+}
+.checkbox{
+  color: var(--cervena);  
 }
