@@ -13,37 +13,34 @@
     <meta name="apple-mobile-web-app-title" content="BP" />
     <link rel="manifest" href="./site.webmanifest" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css">
+
 </head>
 
 <body>
     <nav class="navbar">
         <a href="/"><img src="./img/Logo.svg" alt="Logo firmy"></a>
-        <div class="navbar_vpravo">
-            <div class="nav__menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
+        <a href="">Kdo jsme</a>
+        <a href="">Obchod</a>
     </nav>
-    <div class="uvod">
-        <img class="uvod__vrstevnice" src="./mojeikony/Union.png" alt="vrstevnice">
-        <img class="uvod__detail" src="/2025-p2a-web-volny-projekt-BaraPospisilova/mojeikony/Rectangle 10.png" alt="">
-        <img class="uvod__obrazek" src="./img/pexels-entero-33416549.jpg" alt="les">
-        <h3>JBC MTB</h3>
-        <p>Mountain Bike z Jizerských hor</p>
-    </div>
+    <section class="uvod">
+        <img class="uvod__pozadi" src="./img/vadim-sherbakov-NQSWvyVRIJk-unsplash.jpg" alt="">
+        <img class="mapa" src="./mojeikony/Detaily-mapa.svg" alt="detaily stromu a vrstevnic">
+        <div class="uvod__nadpis">
+            <h1>Mountain Bike</h1>
+            <p>z Jizerských hor</p>
+        </div>
+    </section>
     <main>
-        <img class="main_icon" src="./mojeikony/Rectangle 10.png" alt=">">
-        <p>Na samotném severu Čech,
-            ve středu Jizerských hor
+        <p class="main__text">Na samotném severu Čech,</p>
+        <p class="main__p">ve středu Jizerských hor
             máte dvě možnosti.
-            Buď jdete s davem, ...</p>
-        <p>A nebo začnete žít!</p>
+            Buď jdete s davem, ... </p>
         <img class="main_img" src="./img/pexels-sandro-tedeschini-694018589-34026724.jpg"
             alt="cyklista na vrcholu hory">
+        <div>
+            <p class="main__citat">A nebo začnete žít!</p>
+        </div>
     </main>
-    <img class="obrazek" src="./img/obrazek1.jpg" alt="černobílá fotka cyklisty, který skáče v lese">
 
     <div class="cards">
         <h2>Co můžete očekávat?</h2>
@@ -76,14 +73,14 @@
         </div>
     </div>
 
-    <div class="znova_div">
+    <aside class="znova_div">
         <div class="half-img">
             <img class="Les_img" src="./img/Les.jpg" alt="Les v mlze">
         </div>
         <p class="random_text">Lorem ipsum dolor, sit amet consectetur adipisicing
             sit amet sicing elit.
             Lorem ipsum dolor, sit amet consectetur </p>
-    </div>
+    </aside>
 
     <div class="nadpis">
         <img src="./mojeikony/Exclude.svg" alt="">
@@ -92,36 +89,32 @@
 
     <div id="gallery" class="gallery">
         <a href="./img/pexels-koprivakart-4138738.jpg">
-            <img src="./img/pexels-koprivakart-4138738.jpg" width="200">
+            <img class="galerie_obrazek" src="./img/pexels-koprivakart-4138738.jpg">
         </a>
-
-        <a href="./img/cat-placeholder.png">
-            <img src="./img/cat-placeholder.png" width="200">
-        </a>
-        <a href="./img/Les.jpg">
-            <img src="./img/Les.jpg" width="200">
-        </a>
-
-        <a href="./img/cat-placeholder.png">
-            <img src="./img/cat-placeholder.png" width="200">
+        <a href="./img/pexels-fr3nks-24916349.jpg">
+            <img  class="galerie_obrazek" src="./img/pexels-fr3nks-24916349.jpg">
         </a>
         <a href="./img/Les.jpg">
-            <img src="./img/Les.jpg" width="200">
+            <img   class="galerie_obrazek" src="./img/Les.jpg">
         </a>
-
         <a href="./img/cat-placeholder.png">
-            <img src="./img/cat-placeholder.png" width="200">
-        </a>
-        <a href="./img/Les.jpg">
-            <img src="./img/Les.jpg" width="200">
-        </a>
-
-        <a href="./img/cat-placeholder.png">
-            <img src="./img/cat-placeholder.png" width="200">
+            <img  class="galerie_obrazek" src="./img/cat-placeholder.png">
         </a>
     </div>
 
     <div class="btn">
+        <img class="tecky" src="./mojeikony/Detaily-tecky.svg" alt="detail tecek v pozadi">
+        <img class="kolo" src="./mojeikony/Kolo.svg" alt="kolo">
+        <img class="stromy" src="./mojeikony/stromy_na_kopci.svg" alt="stromy na kopci">
+
+
+        <svg class="kopec" width="528" height="320" viewBox="0 0 528 320" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M54.6777 220.477L1.67773 318.477H532.178V0.476562C523.344 16.8099 502.878 42.2766 497.678 49.4766C492.478 56.6766 489.178 54.4766 461.178 86.9766L404.178 98.4766L339.178 59.4766L320.678 45.9766L305.178 39.9766L287.178 35.4766L266.178 33.7266H245.178L222.178 39.9766L204.178 49.4766L150.178 98.4766L98.6777 151.477L54.6777 220.477Z"
+                stroke="white" stroke-width="2" class="path" />
+        </svg>
+
         <p>Baví tě Mountain bike?</p>
         <p>Potřebuješ kolo, servis nebo náhradní díly?</p>
         <a class="button" href="./index2.html">Klikni sem</a>
@@ -145,12 +138,64 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/MotionPathPlugin.min.js"></script>
 
     <script>
         lightGallery(document.getElementById('gallery'), {
             plugins: [lgThumbnail],
             thumbnail: true
         });
+    </script>
+
+    <script>
+        // use a script tag or an external JS file
+        document.addEventListener("DOMContentLoaded", (event) => {
+            // gsap code here!
+            /* gsap.from(".uvod__obrazek", { duration: 5, x: 100, scale: 2, rotation: 90, opacity: 0,  ease: "bounce.out" })  */
+            gsap.registerPlugin(SplitText);
+            var split = SplitText.create(".uvod__nadpis", { type: "words", });
+
+
+            gsap.from(split.words, {
+                duration: 1,
+                y: 300,
+                autoAlpha: -2,
+                stagger: 0.5
+            });
+        });
+
+        /*
+       gsap.registerPlugin(ScrollTrigger) ;
+        gsap.to(".kolo", {
+         scrollTrigger: ".kolo", // start the animation when ".box" enters the viewport (once)
+         x: 50,
+         duration: 5,
+         rotation: 50
+       });
+       */
+        gsap.registerPlugin(MotionPathPlugin);
+        gsap.to(".kolo", {
+            motionPath: {
+                path: ".path",
+                align: ".path",
+                alignOrigin: [0.5, 1],
+                autoRotate: true,
+                start: 0.5,
+                end: -0.2,
+            },
+            duration: 5,
+            ease: "expoScale",
+        });
+
+
+        var tl = gsap.timeline();
+        tl.from(".main__text", { duration: 1, x: 786 })
+            .from(".main__p", { duration: 1.5, opacity: 0 })
+            .from(".main_img", {x: 786 }, "-=1")
+            .from(".main__citat", { duration: 1, x: 786 })
     </script>
 
 </body>
