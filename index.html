@@ -32,11 +32,11 @@
     </section>
     <main>
         <div class="main__texty">
-        <p class="main__text">Na samotném severu Čech,</p>
-        <p class="main__p">ve středu Jizerských hor
-            máte dvě možnosti.
-            Buď jdete s davem, ... </p>
-            </div>
+            <p class="main__text">Na samotném severu Čech,</p>
+            <p class="main__p">ve středu Jizerských hor
+                máte dvě možnosti.
+                Buď jdete s davem, ... </p>
+        </div>
         <img class="main_img" src="./img/pexels-sandro-tedeschini-694018589-34026724.jpg"
             alt="cyklista na vrcholu hory">
         <div class="citat-div">
@@ -75,13 +75,12 @@
         </div>
     </div>
 
-    <aside class="znova_div">
-        <div class="half-img">
-            <img class="Les_img" src="./img/Les.jpg" alt="Les v mlze">
+    <aside>
+        <div class="aside_texty">
+        <p class="aside_p">Máš zájem o to, stát se členem našeho úchvatného závodního týmu?</p>
+        <h3 class="aside_h3">Neváhej, napiš nám!</h3>
+         <a class="tlacitko" href="index2.html">Klikni sem ></a>
         </div>
-        <p class="random_text">Lorem ipsum dolor, sit amet consectetur adipisicing
-            sit amet sicing elit.
-            Lorem ipsum dolor, sit amet consectetur </p>
     </aside>
 
     <div class="nadpis">
@@ -94,13 +93,13 @@
             <img class="galerie_obrazek" src="./img/pexels-koprivakart-4138738.jpg">
         </a>
         <a href="./img/pexels-fr3nks-24916349.jpg">
-            <img  class="galerie_obrazek" src="./img/pexels-fr3nks-24916349.jpg">
+            <img class="galerie_obrazek" src="./img/pexels-fr3nks-24916349.jpg">
         </a>
         <a href="./img/Les.jpg">
-            <img   class="galerie_obrazek" src="./img/Les.jpg">
+            <img class="galerie_obrazek" src="./img/Les.jpg">
         </a>
         <a href="./img/cat-placeholder.png">
-            <img  class="galerie_obrazek" src="./img/cat-placeholder.png">
+            <img class="galerie_obrazek" src="./img/cat-placeholder.png">
         </a>
     </div>
 
@@ -196,7 +195,7 @@
         var tl = gsap.timeline();
         tl.from(".main__text", { duration: 1, x: 786 })
             .from(".main__p", { duration: 1.5, opacity: 0 })
-            .from(".main_img", {x: 786 }, "-=1")
+            .from(".main_img", { x: 786 }, "-=1")
             .from(".main__citat", { duration: 1, x: 786 })
     </script>
 

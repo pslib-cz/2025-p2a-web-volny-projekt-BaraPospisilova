@@ -68,6 +68,11 @@ h1 {
     flex-direction: column;
 }
 
+.uvod__nadpis p {
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
 main {
     padding: 0em 2em;
     text-align: right;
@@ -110,6 +115,7 @@ main>p {
     height: 1em;
     rotate: -14deg;
 }
+
 .cards {
     scale: 0.95;
 }
@@ -147,6 +153,7 @@ main>p {
     grid-template-columns: 60% 40%;
     overflow: hidden;
     margin: 0.5em;
+    height: 25vh;
 }
 
 .card1 {
@@ -192,34 +199,39 @@ main>p {
     gap: 1.2em;
 }
 
-.znova_div {
-    background-color: #272727;
-    position: relative;
-}
-
-.half-img {
-    width: 50vw;
+aside {
+    background-image: url(./img/Pozadi_les+logo.png);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    background-size: cover;
+    height: 90vh;
+    text-align: right;
+    color: white;
+    padding-right: 1em;
+    flex-direction: column;
 }
 
-.Les_img {
-    margin: 5em 0em 5em 0em;
-    width: 20em;
-    height: 25em;
-    object-fit: cover;
-    border-radius: 1em;
+.aside_p {
+    font-size: 1.7em;
+    max-width: 80%;
+    text-align: right;
+    display: flex;
+    justify-self: right;
 }
-
-.random_text {
-    color: rgb(245, 244, 244);
-    position: absolute;
-    top: 13em;
-    left: 9em;
-    width: 11em;
+.aside_h3{
+    font-size: 2em;
 }
-
+.aside_texty{
+    margin-top: 40vh;
+}
+.tlacitko {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-weight: 600;
+    border-radius: 0.3em;
+    text-decoration: none;
+    margin-top: 5vh;
+}
 .btn {
     display: flex;
     flex-direction: column;
@@ -231,31 +243,36 @@ main>p {
     position: relative;
     overflow: hidden;
 }
-.tecky{
-    position:absolute;
+
+.tecky {
+    position: absolute;
     top: -255px;
     left: -367px;
     z-index: 0;
     scale: 0.5;
 }
-.kopec{
+
+.kopec {
     position: absolute;
     bottom: -7em;
     right: -9em;
     scale: 0.5;
 }
-.kolo{
+
+.kolo {
     /*position: absolute;
     right: 7.5em;
     bottom: 6em;*/
     scale: 0.7;
 }
-.stromy{
-     position: absolute;
+
+.stromy {
+    position: absolute;
     bottom: -6em;
     right: -2em;
-    scale: 0.5;   
+    scale: 0.5;
 }
+
 .button {
     background-color: var(--nice-blue);
     padding: 1em;
@@ -268,10 +285,6 @@ main>p {
 
 .button:hover {
     background-color: var(--darker-blue);
-}
-
-@keyframes tlacitko {
-    0% {}
 }
 
 footer {
@@ -298,7 +311,8 @@ footer {
     grid-template-rows: auto;
     gap: 0px;
 }
-.galerie_obrazek{
+
+.galerie_obrazek {
     max-width: 25vw;
 }
 
@@ -320,89 +334,111 @@ footer {
      */
 
 @media (min-width: 1200px) {
-
+    h1{
+        font-size: 9rem;
+        width: 70%;
+        line-height: 90%;
+    }
+    .uvod__nadpis p{
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
     .navbar {
         max-height: 1em;
     }
-    main{
+
+    main {
         margin: 1em 0em;
         display: flex;
         flex-direction: row-reverse;
     }
-    .main_img {
-    width: 50%;
-    height: auto;
-}
-.main__texty{
-    width: 50%;
-    text-align: right;
-    display: flex;
-    align-items: end;
-    flex-direction: column;
-}
-.main__text{
-font-size: 4.8em;
-line-height: 117%;
-}
-.main__p{
-font-size: 26px;
-text-align: right;
-width: 60%;
-margin-right: 1em;
-}
-.citat-div{
-     position: absolute;
-    top: 35em;
-    left: -5em;
-    align-items: center;
-    background-color: #06060600;
-    width: 150%;
-    height: 1em;
-    rotate: -14deg;   
-}
-.cards{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.cards_card{
-    height: 60vh;
-    width: 75vw;
-}
-.card1 > .card__content{
-    height: 60vh;
-}
-.card__header > h2 {
-    font-size: 3em;
-    margin-left: 0.5em;
-}
-.card__text{
- margin-left: 1.5em;   
-}
 
-.tecky{
-    position:absolute;
-    top: -255px;
-    left: -367px;
-    z-index: 0;
-    scale: 1;
-}
-.kopec{
-    position: absolute;
-    bottom: -4em;
-    right: 0em;
-    scale: 1;
-}
-.kolo{
-    /*position: absolute;
+    .main_img {
+        width: 50%;
+        height: auto;
+    }
+
+    .main__texty {
+        width: 50%;
+        text-align: right;
+        display: flex;
+        align-items: end;
+        flex-direction: column;
+    }
+
+    .main__text {
+        font-size: 4.8em;
+        line-height: 117%;
+    }
+
+    .main__p {
+        font-size: 26px;
+        text-align: right;
+        width: 60%;
+        margin-right: 1em;
+    }
+
+    .citat-div {
+        position: absolute;
+        top: 35em;
+        left: -5em;
+        align-items: center;
+        background-color: #06060600;
+        width: 150%;
+        height: 1em;
+        rotate: -14deg;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards_card {
+        height: 60vh;
+        width: 75vw;
+    }
+
+    .card1>.card__content {
+        height: 60vh;
+    }
+
+    .card__header>h2 {
+        font-size: 3em;
+        margin-left: 0.5em;
+    }
+
+    .card__text {
+        margin-left: 1.5em;
+    }
+
+    .tecky {
+        position: absolute;
+        top: -255px;
+        left: -367px;
+        z-index: 0;
+        scale: 1;
+    }
+
+    .kopec {
+        position: absolute;
+        bottom: -4em;
+        right: 0em;
+        scale: 1;
+    }
+
+    .kolo {
+        /*position: absolute;
     right: 7.5em;
     bottom: 6em;*/
-    scale: 1;
-}
-.stromy{
-     position: absolute;
-    bottom: -3em;
-    right: 7em;
-    scale: 1;   
-}
+        scale: 1;
+    }
+
+    .stromy {
+        position: absolute;
+        bottom: -3em;
+        right: 7em;
+        scale: 1;
+    }
 }
