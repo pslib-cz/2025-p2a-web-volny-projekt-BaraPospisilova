@@ -244,9 +244,9 @@ aside {
     overflow: hidden;
 }
 .text{
-    font-size: 20px;
+    font-size: 40px;
 
-    
+
 }
 .tecky {
     position: absolute;
@@ -285,6 +285,7 @@ aside {
     box-shadow: 3px 3px 0px var(--darker-blue);
     z-index: 1;
     text-decoration: none;
+    color: white;
 }
 
 .button:hover {
