@@ -19,7 +19,6 @@ body {
 }
 
 .pozadi {
-    width: 100%;
     background-color: #C0D5D8;
     height: 14em;
 }
@@ -49,22 +48,24 @@ body {
     width: 50%;
     max-width: 17em;
     z-index: 4;
-    padding: 4vh 3em;
+    padding: 2vh 2em;
 }
-
+@media (min-width: 1200px) {
+    .navbar{
+        padding: 4vh 3em;  
+    } 
+}
 .navbar>a {
     text-decoration: none;
     color: #f1f1f1;
 }
 
 h1 {
-    position: absolute;
-    top: 2em;
-    margin: 0.5em;
-    margin-top: 33%;
+    position: relative;
+    top: auto;
+    margin: 3em 1em 1em 1em;
     text-shadow: 0.752px 0.752px 0 rgba(175, 0, 0, 0.42);
     letter-spacing: 0.7px;
-
 }
 
 h2 {
@@ -80,7 +81,6 @@ main {
     overflow: hidden;
     background-image: url(./mojeikony/Detaily-tecky-cerne.svg);
     background-repeat: no-repeat;
-    width: 100%;
     display: flex;
     flex: 1;
 }
@@ -104,7 +104,10 @@ figure img {
     height: 242.74px;
     transform: skew(20deg);
 }
-
+figcaption a {
+    text-decoration: none;
+    color: #000;
+}
 .border {
     border: 1.4px solid #2C2C2C;
     background: #E9F0F2;
@@ -210,6 +213,9 @@ footer {
     justify-content: center;
     align-items: end;
 }
+.ThisIsTheEnd img{
+    transform: scale(0.6);
+}
 footer p, h3 {
     opacity: 0.7;
 }
@@ -240,18 +246,49 @@ footer p, h3 {
 
 @media (min-width: 742px) {
     .pozadi {
-    width: 100%;
     background-color: #C0D5D8;
     height: 20em;
 }
 h1{
     font-size: 3em;
+    
 }
+}
+@media (min-width: 900px) {
+
+    .produkt1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .produkt1 > h2{
+        width: 100%;
+        order: -1; 
+        margin: 0 0 1rem 1em;
+    }
+    .produkt1 img {
+        width: 47vw;
+        position: static;
+        max-width: 45%;
+        order: 1;
+    }
+    .popis_produktu {
+        margin-top: 0;
+        max-width: 50%;
+        width:39%;
+        order: 2;
+    transform: skew(15deg) scale(1.4);
+    }
+
 }
 @media (min-width: 1030px) {
     .pozadi {
-    width: 100%;
     background-color: #C0D5D8;
     height: 30em;
+}
+.konkretni_typ {
+    width: 30em;
 }
 }

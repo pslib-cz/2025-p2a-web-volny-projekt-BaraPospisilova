@@ -40,7 +40,12 @@ body{
     width: 50%;
     max-width: 17em;
     z-index: 4;
-    padding: 4vh 3em;
+    padding: 2vh 2em;
+}
+@media (min-width: 1200px) {
+    .navbar{
+        padding: 4vh 3em;  
+    } 
 }
 
 .navbar>a {
@@ -59,6 +64,9 @@ body{
 }
 footer p, h3 {
     opacity: 0.7;
+}
+.ThisIsTheEnd img{
+    transform: scale(0.6);
 }
 form > input{
     color: var(--cervena);

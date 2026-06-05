@@ -26,9 +26,13 @@ body {
     width: 50%;
     max-width: 17em;
     z-index: 4;
-    padding: 4vh 3em;
+    padding: 2vh 2em;
 }
-
+@media (min-width: 1200px) {
+    .navbar{
+        padding: 4vh 3em;  
+    } 
+}
 .navbar>a {
     text-decoration: none;
     color: #f1f1f1;
@@ -237,16 +241,33 @@ aside {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: var(--grey);
+    background-color: rgb(237, 237, 237);
     padding: 15%;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     position: relative;
     overflow: hidden;
+    /* background-image: url(./mojeikony/stromy_mix.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom; */
+}
+.stromy2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 .text{
     font-size: 40px;
-
-
+    z-index: 1;
+}
+.btn p {
+    z-index: 1;
+}
+@media (min-width: 916px) {
+.btn{
+    color: white;
+}
 }
 .tecky {
     position: absolute;
@@ -254,6 +275,7 @@ aside {
     left: -367px;
     z-index: 0;
     scale: 0.5;
+    z-index: 1;
 }
 
 .kopec {
@@ -261,13 +283,15 @@ aside {
     bottom: -7em;
     right: -9em;
     scale: 0.5;
+    z-index: 1;
 }
 
 .kolo {
-    /*position: absolute;
+    position: absolute;
     right: 7.5em;
-    bottom: 6em;*/
+    bottom: 6em;
     scale: 0.7;
+    z-index: 1;
 }
 
 .stromy {
@@ -275,8 +299,8 @@ aside {
     bottom: -6em;
     right: -2em;
     scale: 0.5;
+    z-index: 1;
 }
-
 .button {
     background-color: var(--nice-blue);
     padding: 1em;
@@ -311,18 +335,40 @@ footer p, h3 {
 .ThisIsTheEnd>p {
     color: #f1f1f1;
 }
-
+.ThisIsTheEnd img{
+    transform: scale(0.6);
+}
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 0px;
+    height: 50vw;
 }
-.gallery:nth-child(1){
+.gallery > a:nth-child(1){
     grid-column: span 2;
+    grid-row: span 2;
 }
+
+.gallery a {
+    position: relative;
+    overflow: hidden;
+}
+.gallery a:hover img {
+    transform: scale(1.1);
+}
+.gallery a img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: transform 0.7s;
+}
+
 .galerie_obrazek {
-    max-width: 25vw;
+    
 }
 
 
