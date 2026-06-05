@@ -153,7 +153,7 @@ main>p {
     grid-template-columns: 60% 40%;
     overflow: hidden;
     margin: 0.5em;
-    height: 25vh;
+    height: 31vh;
 }
 
 .card1 {
@@ -243,7 +243,9 @@ aside {
     position: relative;
     overflow: hidden;
 }
-
+.text{
+    font-size: 20px;
+}
 .tecky {
     position: absolute;
     top: -255px;
@@ -294,7 +296,9 @@ footer {
     color: rgb(230, 230, 230);
     padding: 1.5em;
 }
-
+footer p, h3 {
+    opacity: 0.7;
+}
 .ThisIsTheEnd {
     background-color: #060606;
     display: flex;
@@ -311,7 +315,9 @@ footer {
     grid-template-rows: auto;
     gap: 0px;
 }
-
+.gallery:nth-child(1){
+    grid-column: span 2;
+}
 .galerie_obrazek {
     max-width: 25vw;
 }
