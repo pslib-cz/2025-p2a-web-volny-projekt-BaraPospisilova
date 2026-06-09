@@ -34,10 +34,10 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`[Doplň odkaz](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-BaraPospisilova/)`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-BaraPospisilova/) |
-| Grafický manuál (Figma / Canva) | [`Doplň odkaz`](https://www.figma.com/design/cSfMNEySJQBE320sD4XWYi/Posp%C3%AD%C5%A1ilov%C3%A1B%C3%A1ra?node-id=0-1&p=f&t=3xCC2cIRDx08UVu0-0) |
+| GitHub Pages (live) | [`Odkaz`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-BaraPospisilova/) |
+| Grafický manuál (Figma / Canva) | [`Figma`](https://www.figma.com/design/cSfMNEySJQBE320sD4XWYi/Posp%C3%AD%C5%A1ilov%C3%A1B%C3%A1ra?node-id=0-1&p=f&t=3xCC2cIRDx08UVu0-0) |
 | Grafický návrh webu (Figma) | [`https://www.figma.com/design/cSfMNEySJQBE320sD4XWYi/Posp%C3%AD%C5%A1ilov%C3%A1B%C3%A1ra?node-id=0-1&p=f&t=3xCC2cIRDx08UVu0-0`]    |
-| Fotografie / média | [`Doplň odkaz`](#) |
+| Fotografie / média | [`[Doplň odkaz](https://github.com/pslib-cz/2025-p2a-web-volny-projekt-BaraPospisilova/tree/main/img)`](https://github.com/pslib-cz/2025-p2a-web-volny-projekt-BaraPospisilova/tree/main/img) |
 
 ---
 
